@@ -1,0 +1,9 @@
+// Create file
+nano ~/.tmux.conf
+
+// Masukan perintah berikut dalam file ~/.tmux.conf lalu save file
+bind e set-window-option synchronize-panes
+
+// Jalankan tmux reload pada console
+tmux source-file ~/.tmux.conf
+
